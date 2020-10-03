@@ -20,4 +20,4 @@ for x in range(1, 11):
   square(x * BASE_SIZE)
   relocate()
 
-input()
+t.done()

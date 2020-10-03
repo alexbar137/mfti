@@ -16,4 +16,4 @@ for x in range(2, 13):
   t.clearscreen()
   makeSpider(x)
 
-input()
+t.done()

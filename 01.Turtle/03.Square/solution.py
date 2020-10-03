@@ -4,4 +4,4 @@ for x in range(4):
   t.forward(50)
   t.right(90)
 
-input()
+t.done()

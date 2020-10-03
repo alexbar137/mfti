@@ -14,4 +14,4 @@ forwardRight()
 forwardLeft()
 t.forward(50)
 
-input()
+t.done()
