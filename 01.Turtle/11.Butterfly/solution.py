@@ -2,6 +2,7 @@ import turtle as t
 import math
 
 BASE_DIAMETER = 20
+INCREASE = 2
 
 def drawCircle(diameter):
   c = math.pi * abs(diameter)
@@ -12,7 +13,7 @@ def drawCircle(diameter):
 
 t.setheading(90)
 for x in range(10):
-  diameter = BASE_DIAMETER + x*5
+  diameter = BASE_DIAMETER + x*INCREASE
   drawCircle(diameter)
   drawCircle(-diameter)
 
